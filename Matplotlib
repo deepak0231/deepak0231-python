@@ -1,0 +1,19 @@
+from matplotlib import pyplot as plt
+import numpy as np
+x = np.arange(1,11,2)
+y = np.arange(1,11,2)
+print(x, y)
+# plt.plot(x,y)
+# plt.xlabel('X-Axis')
+# plt.ylabel('Y-Axis')
+# plt.title('My Plot lib try')
+# plt.show()
+dict = {'Banana' : 50, 'Apple' : 25, 'Melon' : 75}
+print(dict)
+name = dict.keys()
+val = dict.values()
+plt.bar(name,val)
+# plt.xlabel('X-Axis')
+# plt.ylabel('Y-Axis')
+# plt.title('My Plot lib try')
+plt.show()
